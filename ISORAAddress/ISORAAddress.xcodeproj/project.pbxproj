@@ -29,6 +29,8 @@
 		EF6400A81CA44D2E00824C04 /* message.png in Resources */ = {isa = PBXBuildFile; fileRef = EF64009E1CA44D2E00824C04 /* message.png */; };
 		EF6400A91CA44D2E00824C04 /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = EF64009F1CA44D2E00824C04 /* next.png */; };
 		EF6400AA1CA44D2E00824C04 /* user_avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = EF6400A01CA44D2E00824C04 /* user_avatar.png */; };
+		EF6400AE1CA4717F00824C04 /* HeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6400AC1CA4717F00824C04 /* HeaderTableViewCell.m */; };
+		EF6400AF1CA4717F00824C04 /* HeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF6400AD1CA4717F00824C04 /* HeaderTableViewCell.xib */; };
 		F661B193F71EAB440973613A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30056643BFEC2A3D511ADE96 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +68,9 @@
 		EF64009E1CA44D2E00824C04 /* message.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = message.png; sourceTree = "<group>"; };
 		EF64009F1CA44D2E00824C04 /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
 		EF6400A01CA44D2E00824C04 /* user_avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_avatar.png; sourceTree = "<group>"; };
+		EF6400AB1CA4717F00824C04 /* HeaderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderTableViewCell.h; sourceTree = "<group>"; };
+		EF6400AC1CA4717F00824C04 /* HeaderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderTableViewCell.m; sourceTree = "<group>"; };
+		EF6400AD1CA4717F00824C04 /* HeaderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +175,9 @@
 				50BE97401CA45C4F004870AB /* AddressTableViewCell.h */,
 				50BE97411CA45C4F004870AB /* AddressTableViewCell.m */,
 				50BE97421CA45C4F004870AB /* AddressTableViewCell.xib */,
+				EF6400AB1CA4717F00824C04 /* HeaderTableViewCell.h */,
+				EF6400AC1CA4717F00824C04 /* HeaderTableViewCell.m */,
+				EF6400AD1CA4717F00824C04 /* HeaderTableViewCell.xib */,
 			);
 			path = TableViewCell;
 			sourceTree = "<group>";
@@ -262,6 +270,7 @@
 				50BE973C1CA453E9004870AB /* default.realm in Resources */,
 				50835BD91CA43CF5009285F8 /* LaunchScreen.storyboard in Resources */,
 				50BE97441CA45C4F004870AB /* AddressTableViewCell.xib in Resources */,
+				EF6400AF1CA4717F00824C04 /* HeaderTableViewCell.xib in Resources */,
 				50835BD61CA43CF5009285F8 /* Assets.xcassets in Resources */,
 				EF6400A71CA44D2E00824C04 /* favourite.png in Resources */,
 				EF6400A31CA44D2E00824C04 /* call.png in Resources */,
@@ -334,6 +343,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50BE97431CA45C4F004870AB /* AddressTableViewCell.m in Sources */,
+				EF6400AE1CA4717F00824C04 /* HeaderTableViewCell.m in Sources */,
 				50835BD11CA43CF5009285F8 /* ViewController.m in Sources */,
 				50835BCE1CA43CF5009285F8 /* AppDelegate.m in Sources */,
 				50BE973A1CA451A1004870AB /* UserEntity.m in Sources */,

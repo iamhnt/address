@@ -752,7 +752,7 @@
     <resources>
         <image name="add.png" width="96" height="96"/>
         <image name="back.png" width="99" height="99"/>
-        <image name="call_white.png" width="52" height="52"/>
+        <image name="call_white.png" width="68" height="68"/>
         <image name="email_white.png" width="65" height="65"/>
         <image name="favourite.png" width="102" height="102"/>
         <image name="message.png" width="105" height="105"/>
