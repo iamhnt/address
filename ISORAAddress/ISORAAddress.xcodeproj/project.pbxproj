@@ -39,6 +39,7 @@
 		50BE97381CA451A1004870AB /* UserEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserEntity.h; sourceTree = "<group>"; };
 		50BE97391CA451A1004870AB /* UserEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserEntity.m; sourceTree = "<group>"; };
 		50BE973B1CA453E9004870AB /* default.realm */ = {isa = PBXFileReference; lastKnownFileType = file; path = default.realm; sourceTree = "<group>"; };
+		50BE973E1CA4572E004870AB /* Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
 		8E0FC4E8197A1FF26775B143 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,6 +86,7 @@
 		50835BC81CA43CF5009285F8 /* ISORAAddress */ = {
 			isa = PBXGroup;
 			children = (
+				50BE973D1CA45714004870AB /* Helper */,
 				509828681CA44F950022DC0C /* Entity */,
 				509828651CA44F2C0022DC0C /* Files */,
 				50835BCC1CA43CF5009285F8 /* AppDelegate.h */,
@@ -125,6 +127,14 @@
 				50BE97391CA451A1004870AB /* UserEntity.m */,
 			);
 			path = Entity;
+			sourceTree = "<group>";
+		};
+		50BE973D1CA45714004870AB /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				50BE973E1CA4572E004870AB /* Helper.h */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		5C64DF02E2340C05775F5F1C /* Frameworks */ = {
