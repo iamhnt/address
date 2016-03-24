@@ -1,0 +1,15 @@
+PODS:
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - MGSwipeTableCell (1.5.4)
+
+DEPENDENCIES:
+  - FMDB
+  - MGSwipeTableCell
+
+SPEC CHECKSUMS:
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  MGSwipeTableCell: cffd3378af74eb991911f132c5f3911261fda860
+
+COCOAPODS: 0.39.0
