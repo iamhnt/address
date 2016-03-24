@@ -24,6 +24,8 @@
 		50BE974C1CA47405004870AB /* message_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 50BE974B1CA47405004870AB /* message_white.png */; };
 		50BE97501CA47498004870AB /* email_green.png in Resources */ = {isa = PBXBuildFile; fileRef = 50BE974E1CA47498004870AB /* email_green.png */; };
 		50BE97521CA47501004870AB /* call_green.png in Resources */ = {isa = PBXBuildFile; fileRef = 50BE97511CA47501004870AB /* call_green.png */; };
+		50BE97551CA4774A004870AB /* AddressSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BE97541CA4774A004870AB /* AddressSearchViewController.m */; };
+		50BE97581CA477A5004870AB /* AddressSearchResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BE97571CA477A5004870AB /* AddressSearchResultViewController.m */; };
 		EF6400A11CA44D2E00824C04 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = EF6400971CA44D2E00824C04 /* add.png */; };
 		EF6400A21CA44D2E00824C04 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = EF6400981CA44D2E00824C04 /* back.png */; };
 		EF6400A31CA44D2E00824C04 /* call.png in Resources */ = {isa = PBXBuildFile; fileRef = EF6400991CA44D2E00824C04 /* call.png */; };
@@ -65,6 +67,10 @@
 		50BE974B1CA47405004870AB /* message_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = message_white.png; sourceTree = "<group>"; };
 		50BE974E1CA47498004870AB /* email_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email_green.png; sourceTree = "<group>"; };
 		50BE97511CA47501004870AB /* call_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call_green.png; sourceTree = "<group>"; };
+		50BE97531CA4774A004870AB /* AddressSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressSearchViewController.h; sourceTree = "<group>"; };
+		50BE97541CA4774A004870AB /* AddressSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressSearchViewController.m; sourceTree = "<group>"; };
+		50BE97561CA477A5004870AB /* AddressSearchResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressSearchResultViewController.h; sourceTree = "<group>"; };
+		50BE97571CA477A5004870AB /* AddressSearchResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressSearchResultViewController.m; sourceTree = "<group>"; };
 		8E0FC4E8197A1FF26775B143 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		EF6400971CA44D2E00824C04 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
 		EF6400981CA44D2E00824C04 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
@@ -189,6 +195,10 @@
 			children = (
 				50BE97481CA46AF9004870AB /* AddressDetailViewController.h */,
 				50BE97491CA46AF9004870AB /* AddressDetailViewController.m */,
+				50BE97531CA4774A004870AB /* AddressSearchViewController.h */,
+				50BE97541CA4774A004870AB /* AddressSearchViewController.m */,
+				50BE97561CA477A5004870AB /* AddressSearchResultViewController.h */,
+				50BE97571CA477A5004870AB /* AddressSearchResultViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -359,8 +369,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				50BE97431CA45C4F004870AB /* AddressTableViewCell.m in Sources */,
+				50BE97581CA477A5004870AB /* AddressSearchResultViewController.m in Sources */,
 				50835BD11CA43CF5009285F8 /* ViewController.m in Sources */,
 				50BE974A1CA46AF9004870AB /* AddressDetailViewController.m in Sources */,
+				50BE97551CA4774A004870AB /* AddressSearchViewController.m in Sources */,
 				50835BCE1CA43CF5009285F8 /* AppDelegate.m in Sources */,
 				50BE973A1CA451A1004870AB /* UserEntity.m in Sources */,
 				5098286B1CA44FF70022DC0C /* DepartmentEntity.m in Sources */,

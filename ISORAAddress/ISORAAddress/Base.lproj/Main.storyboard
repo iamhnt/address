@@ -349,15 +349,15 @@
                                                                 <color key="textColor" red="0.67843137254901964" green="0.67843137254901964" blue="0.67843137254901964" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="message_white.png" translatesAutoresizingMaskIntoConstraints="NO" id="gtq-78-Dvd">
-                                                                <rect key="frame" x="562" y="14" width="30" height="30"/>
+                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="message_white.png" translatesAutoresizingMaskIntoConstraints="NO" id="gtq-78-Dvd">
+                                                                <rect key="frame" x="562" y="15" width="30" height="30"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="30" id="Dvz-Z1-uUw"/>
                                                                     <constraint firstAttribute="width" constant="30" id="Kgp-k0-6ma"/>
                                                                 </constraints>
                                                             </imageView>
-                                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="call_green.png" translatesAutoresizingMaskIntoConstraints="NO" id="jS6-NO-rn0">
-                                                                <rect key="frame" x="512" y="14" width="30" height="30"/>
+                                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="call_green.png" translatesAutoresizingMaskIntoConstraints="NO" id="jS6-NO-rn0">
+                                                                <rect key="frame" x="512" y="15" width="30" height="30"/>
                                                             </imageView>
                                                         </subviews>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -390,8 +390,8 @@
                                                                 <color key="textColor" red="0.67843137249999996" green="0.67843137249999996" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="email_green.png" translatesAutoresizingMaskIntoConstraints="NO" id="qj7-s3-2jk">
-                                                                <rect key="frame" x="562" y="14" width="30" height="30"/>
+                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="email_green.png" translatesAutoresizingMaskIntoConstraints="NO" id="qj7-s3-2jk">
+                                                                <rect key="frame" x="562" y="15" width="30" height="30"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="30" id="YPS-hK-ho2"/>
                                                                     <constraint firstAttribute="width" constant="30" id="dxO-MH-j8f"/>
@@ -493,10 +493,10 @@
             </objects>
             <point key="canvasLocation" x="1394" y="-353"/>
         </scene>
-        <!--View Controller-->
+        <!--Address Search View Controller-->
         <scene sceneID="1hj-pF-zoa">
             <objects>
-                <viewController id="hVq-6x-kNf" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="addressSearchViewController" id="hVq-6x-kNf" customClass="AddressSearchViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="TRC-X8-yfG"/>
                         <viewControllerLayoutGuide type="bottom" id="bcG-Tt-Ctg"/>
@@ -509,13 +509,13 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="70"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tìm kiếm thông tin nhân sự" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6xw-Sa-do2">
-                                        <rect key="frame" x="0.0" y="25.5" width="600" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="35.5" width="600" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wyy-Bo-YH4">
-                                        <rect key="frame" x="0.0" y="20" width="50" height="30"/>
+                                        <rect key="frame" x="0.0" y="30" width="50" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="50" id="Nr9-Qd-fpc"/>
                                             <constraint firstAttribute="height" constant="30" id="gJf-zB-YJc"/>
@@ -528,7 +528,7 @@
                                 <constraints>
                                     <constraint firstItem="6xw-Sa-do2" firstAttribute="leading" secondItem="pYh-ic-MTJ" secondAttribute="leading" id="0Gb-so-dyX"/>
                                     <constraint firstItem="6xw-Sa-do2" firstAttribute="top" secondItem="pYh-ic-MTJ" secondAttribute="top" constant="20" id="0QL-Ao-mAW"/>
-                                    <constraint firstItem="wyy-Bo-YH4" firstAttribute="top" secondItem="pYh-ic-MTJ" secondAttribute="top" constant="20" id="HOa-kp-g0h"/>
+                                    <constraint firstItem="wyy-Bo-YH4" firstAttribute="top" secondItem="pYh-ic-MTJ" secondAttribute="top" constant="30" id="HOa-kp-g0h"/>
                                     <constraint firstAttribute="trailing" secondItem="6xw-Sa-do2" secondAttribute="trailing" id="MFr-LX-2Ne"/>
                                     <constraint firstAttribute="height" constant="70" id="YU3-Cd-WNL"/>
                                     <constraint firstItem="6xw-Sa-do2" firstAttribute="centerY" secondItem="wyy-Bo-YH4" secondAttribute="centerY" id="wkx-bd-Vp7"/>
@@ -637,10 +637,10 @@
             </objects>
             <point key="canvasLocation" x="1999" y="-353"/>
         </scene>
-        <!--View Controller-->
+        <!--Address Search Result View Controller-->
         <scene sceneID="zpL-JS-aO9">
             <objects>
-                <viewController id="35W-lh-l7U" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="addressSearchResultViewController" id="35W-lh-l7U" customClass="AddressSearchResultViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kdZ-sv-awt"/>
                         <viewControllerLayoutGuide type="bottom" id="CnW-5v-CXf"/>
