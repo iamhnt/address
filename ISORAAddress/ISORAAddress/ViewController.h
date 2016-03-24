@@ -9,6 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *lbUnderLineWork;
+@property (weak, nonatomic) IBOutlet UILabel *lbUnderContacts;
+@property (weak, nonatomic) IBOutlet UILabel *lbUnderLineImpotant;
 
 
 @end

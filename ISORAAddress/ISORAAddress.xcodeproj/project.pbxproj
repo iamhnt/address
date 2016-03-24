@@ -15,6 +15,16 @@
 		50835BD91CA43CF5009285F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50835BD71CA43CF5009285F8 /* LaunchScreen.storyboard */; };
 		50835BE11CA43DCF009285F8 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 50835BE01CA43DCF009285F8 /* Podfile */; };
 		B1FE413729A38B16EC5A3786 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6852E123626B3BDA4F8ED68F /* Pods.framework */; };
+		EF6400A11CA44D2E00824C04 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = EF6400971CA44D2E00824C04 /* add.png */; };
+		EF6400A21CA44D2E00824C04 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = EF6400981CA44D2E00824C04 /* back.png */; };
+		EF6400A31CA44D2E00824C04 /* call.png in Resources */ = {isa = PBXBuildFile; fileRef = EF6400991CA44D2E00824C04 /* call.png */; };
+		EF6400A41CA44D2E00824C04 /* call_white.png in Resources */ = {isa = PBXBuildFile; fileRef = EF64009A1CA44D2E00824C04 /* call_white.png */; };
+		EF6400A51CA44D2E00824C04 /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = EF64009B1CA44D2E00824C04 /* email.png */; };
+		EF6400A61CA44D2E00824C04 /* email_white.png in Resources */ = {isa = PBXBuildFile; fileRef = EF64009C1CA44D2E00824C04 /* email_white.png */; };
+		EF6400A71CA44D2E00824C04 /* favourite.png in Resources */ = {isa = PBXBuildFile; fileRef = EF64009D1CA44D2E00824C04 /* favourite.png */; };
+		EF6400A81CA44D2E00824C04 /* message.png in Resources */ = {isa = PBXBuildFile; fileRef = EF64009E1CA44D2E00824C04 /* message.png */; };
+		EF6400A91CA44D2E00824C04 /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = EF64009F1CA44D2E00824C04 /* next.png */; };
+		EF6400AA1CA44D2E00824C04 /* user_avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = EF6400A01CA44D2E00824C04 /* user_avatar.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,9 +39,19 @@
 		50835BD51CA43CF5009285F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50835BD81CA43CF5009285F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50835BDA1CA43CF5009285F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		50835BE01CA43DCF009285F8 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		50835BE01CA43DCF009285F8 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6852E123626B3BDA4F8ED68F /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E0FC4E8197A1FF26775B143 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		EF6400971CA44D2E00824C04 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		EF6400981CA44D2E00824C04 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		EF6400991CA44D2E00824C04 /* call.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call.png; sourceTree = "<group>"; };
+		EF64009A1CA44D2E00824C04 /* call_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call_white.png; sourceTree = "<group>"; };
+		EF64009B1CA44D2E00824C04 /* email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email.png; sourceTree = "<group>"; };
+		EF64009C1CA44D2E00824C04 /* email_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email_white.png; sourceTree = "<group>"; };
+		EF64009D1CA44D2E00824C04 /* favourite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favourite.png; sourceTree = "<group>"; };
+		EF64009E1CA44D2E00824C04 /* message.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = message.png; sourceTree = "<group>"; };
+		EF64009F1CA44D2E00824C04 /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
+		EF6400A01CA44D2E00824C04 /* user_avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_avatar.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +97,7 @@
 		50835BC81CA43CF5009285F8 /* ISORAAddress */ = {
 			isa = PBXGroup;
 			children = (
+				EF6400961CA44D2E00824C04 /* Images */,
 				50835BCC1CA43CF5009285F8 /* AppDelegate.h */,
 				50835BCD1CA43CF5009285F8 /* AppDelegate.m */,
 				50835BCF1CA43CF5009285F8 /* ViewController.h */,
@@ -104,6 +125,23 @@
 				6852E123626B3BDA4F8ED68F /* Pods.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF6400961CA44D2E00824C04 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EF6400971CA44D2E00824C04 /* add.png */,
+				EF6400981CA44D2E00824C04 /* back.png */,
+				EF6400991CA44D2E00824C04 /* call.png */,
+				EF64009A1CA44D2E00824C04 /* call_white.png */,
+				EF64009B1CA44D2E00824C04 /* email.png */,
+				EF64009C1CA44D2E00824C04 /* email_white.png */,
+				EF64009D1CA44D2E00824C04 /* favourite.png */,
+				EF64009E1CA44D2E00824C04 /* message.png */,
+				EF64009F1CA44D2E00824C04 /* next.png */,
+				EF6400A01CA44D2E00824C04 /* user_avatar.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,8 +206,18 @@
 			files = (
 				50835BD91CA43CF5009285F8 /* LaunchScreen.storyboard in Resources */,
 				50835BD61CA43CF5009285F8 /* Assets.xcassets in Resources */,
+				EF6400A71CA44D2E00824C04 /* favourite.png in Resources */,
+				EF6400A31CA44D2E00824C04 /* call.png in Resources */,
+				EF6400A21CA44D2E00824C04 /* back.png in Resources */,
+				EF6400AA1CA44D2E00824C04 /* user_avatar.png in Resources */,
 				50835BE11CA43DCF009285F8 /* Podfile in Resources */,
+				EF6400A51CA44D2E00824C04 /* email.png in Resources */,
+				EF6400A61CA44D2E00824C04 /* email_white.png in Resources */,
+				EF6400A41CA44D2E00824C04 /* call_white.png in Resources */,
+				EF6400A11CA44D2E00824C04 /* add.png in Resources */,
 				50835BD41CA43CF5009285F8 /* Main.storyboard in Resources */,
+				EF6400A81CA44D2E00824C04 /* message.png in Resources */,
+				EF6400A91CA44D2E00824C04 /* next.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
