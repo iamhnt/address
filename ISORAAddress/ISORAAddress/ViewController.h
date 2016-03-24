@@ -7,8 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Realm/Realm.h>
+#import "UserEntity.h"
+#import "DepartmentEntity.h"
+#import "AddressTableViewCell.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@property (weak, nonatomic) IBOutlet UILabel *lbUnderLineWork;
+@property (weak, nonatomic) IBOutlet UILabel *lbUnderContacts;
+@property (weak, nonatomic) IBOutlet UILabel *lbUnderLineImpotant;
+@property (weak, nonatomic) IBOutlet UITableView *tableViewAddress;
 
 
 @end
