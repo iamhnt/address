@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DepartmentEntity.h"
+#import "UserEntity.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
