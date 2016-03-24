@@ -197,6 +197,7 @@
                         <outlet property="lbUnderContacts" destination="fhc-JM-RhZ" id="pmM-4T-NeX"/>
                         <outlet property="lbUnderLineImpotant" destination="bWe-MM-zgn" id="Hc0-HA-8gc"/>
                         <outlet property="lbUnderLineWork" destination="hEE-5x-3sb" id="Slc-wA-yxN"/>
+                        <outlet property="searchBar" destination="Iym-35-6jF" id="UhE-gk-shK"/>
                         <outlet property="tableViewAddress" destination="Oc0-vm-d1V" id="I0U-FO-oVy"/>
                     </connections>
                 </viewController>
@@ -776,8 +777,6 @@
     <resources>
         <image name="add.png" width="96" height="96"/>
         <image name="back.png" width="99" height="99"/>
-        <image name="call_white.png" width="68" height="68"/>
-        <image name="email_white.png" width="65" height="65"/>
         <image name="call_green.png" width="95" height="95"/>
         <image name="email_green.png" width="100" height="100"/>
         <image name="favourite.png" width="102" height="102"/>

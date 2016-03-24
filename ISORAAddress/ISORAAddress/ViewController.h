@@ -14,12 +14,11 @@
 #import "HeaderTableViewCell.h"
 #import "AddressDetailViewController.h"
 
-@interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate,UISearchBarDelegate>
 @property (weak, nonatomic) IBOutlet UILabel *lbUnderLineWork;
 @property (weak, nonatomic) IBOutlet UILabel *lbUnderContacts;
 @property (weak, nonatomic) IBOutlet UILabel *lbUnderLineImpotant;
 @property (weak, nonatomic) IBOutlet UITableView *tableViewAddress;
-
-
+@property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
 @end
 
