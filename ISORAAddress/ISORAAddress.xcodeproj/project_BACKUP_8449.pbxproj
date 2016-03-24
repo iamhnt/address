@@ -14,21 +14,20 @@
 		50835BD61CA43CF5009285F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50835BD51CA43CF5009285F8 /* Assets.xcassets */; };
 		50835BD91CA43CF5009285F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50835BD71CA43CF5009285F8 /* LaunchScreen.storyboard */; };
 		50835BE11CA43DCF009285F8 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 50835BE01CA43DCF009285F8 /* Podfile */; };
-		5098286B1CA44FF70022DC0C /* DepartmentEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5098286A1CA44FF70022DC0C /* DepartmentEntity.m */; };
-		50BE973A1CA451A1004870AB /* UserEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BE97391CA451A1004870AB /* UserEntity.m */; };
-		50BE973C1CA453E9004870AB /* default.realm in Resources */ = {isa = PBXBuildFile; fileRef = 50BE973B1CA453E9004870AB /* default.realm */; };
-		50BE97431CA45C4F004870AB /* AddressTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BE97411CA45C4F004870AB /* AddressTableViewCell.m */; };
-		50BE97441CA45C4F004870AB /* AddressTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50BE97421CA45C4F004870AB /* AddressTableViewCell.xib */; };
-		50BE97461CA4672F004870AB /* call_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 50BE97451CA4672F004870AB /* call_white.png */; };
+		B1FE413729A38B16EC5A3786 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6852E123626B3BDA4F8ED68F /* Pods.framework */; };
 		EF6400A11CA44D2E00824C04 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = EF6400971CA44D2E00824C04 /* add.png */; };
 		EF6400A21CA44D2E00824C04 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = EF6400981CA44D2E00824C04 /* back.png */; };
 		EF6400A31CA44D2E00824C04 /* call.png in Resources */ = {isa = PBXBuildFile; fileRef = EF6400991CA44D2E00824C04 /* call.png */; };
+		EF6400A41CA44D2E00824C04 /* call_white.png in Resources */ = {isa = PBXBuildFile; fileRef = EF64009A1CA44D2E00824C04 /* call_white.png */; };
 		EF6400A51CA44D2E00824C04 /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = EF64009B1CA44D2E00824C04 /* email.png */; };
 		EF6400A61CA44D2E00824C04 /* email_white.png in Resources */ = {isa = PBXBuildFile; fileRef = EF64009C1CA44D2E00824C04 /* email_white.png */; };
 		EF6400A71CA44D2E00824C04 /* favourite.png in Resources */ = {isa = PBXBuildFile; fileRef = EF64009D1CA44D2E00824C04 /* favourite.png */; };
 		EF6400A81CA44D2E00824C04 /* message.png in Resources */ = {isa = PBXBuildFile; fileRef = EF64009E1CA44D2E00824C04 /* message.png */; };
 		EF6400A91CA44D2E00824C04 /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = EF64009F1CA44D2E00824C04 /* next.png */; };
 		EF6400AA1CA44D2E00824C04 /* user_avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = EF6400A01CA44D2E00824C04 /* user_avatar.png */; };
+		5098286B1CA44FF70022DC0C /* DepartmentEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5098286A1CA44FF70022DC0C /* DepartmentEntity.m */; };
+		50BE973A1CA451A1004870AB /* UserEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BE97391CA451A1004870AB /* UserEntity.m */; };
+		50BE973C1CA453E9004870AB /* default.realm in Resources */ = {isa = PBXBuildFile; fileRef = 50BE973B1CA453E9004870AB /* default.realm */; };
 		F661B193F71EAB440973613A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30056643BFEC2A3D511ADE96 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -46,20 +45,18 @@
 		50835BD81CA43CF5009285F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50835BDA1CA43CF5009285F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50835BE01CA43DCF009285F8 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6852E123626B3BDA4F8ED68F /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		509828691CA44FF70022DC0C /* DepartmentEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DepartmentEntity.h; sourceTree = "<group>"; };
 		5098286A1CA44FF70022DC0C /* DepartmentEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DepartmentEntity.m; sourceTree = "<group>"; };
 		50BE97381CA451A1004870AB /* UserEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserEntity.h; sourceTree = "<group>"; };
 		50BE97391CA451A1004870AB /* UserEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserEntity.m; sourceTree = "<group>"; };
 		50BE973B1CA453E9004870AB /* default.realm */ = {isa = PBXFileReference; lastKnownFileType = file; path = default.realm; sourceTree = "<group>"; };
 		50BE973E1CA4572E004870AB /* Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
-		50BE97401CA45C4F004870AB /* AddressTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressTableViewCell.h; sourceTree = "<group>"; };
-		50BE97411CA45C4F004870AB /* AddressTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressTableViewCell.m; sourceTree = "<group>"; };
-		50BE97421CA45C4F004870AB /* AddressTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddressTableViewCell.xib; sourceTree = "<group>"; };
-		50BE97451CA4672F004870AB /* call_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call_white.png; sourceTree = "<group>"; };
 		8E0FC4E8197A1FF26775B143 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		EF6400971CA44D2E00824C04 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
 		EF6400981CA44D2E00824C04 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 		EF6400991CA44D2E00824C04 /* call.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call.png; sourceTree = "<group>"; };
+		EF64009A1CA44D2E00824C04 /* call_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call_white.png; sourceTree = "<group>"; };
 		EF64009B1CA44D2E00824C04 /* email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email.png; sourceTree = "<group>"; };
 		EF64009C1CA44D2E00824C04 /* email_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email_white.png; sourceTree = "<group>"; };
 		EF64009D1CA44D2E00824C04 /* favourite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favourite.png; sourceTree = "<group>"; };
@@ -111,9 +108,11 @@
 		50835BC81CA43CF5009285F8 /* ISORAAddress */ = {
 			isa = PBXGroup;
 			children = (
-				50BE973F1CA45C17004870AB /* TableViewCell */,
+<<<<<<< HEAD
 				50BE973D1CA45714004870AB /* Helper */,
+=======
 				EF6400961CA44D2E00824C04 /* Images */,
+>>>>>>> 5ddaf7b136bdb193623683a528874c5db64effaa
 				509828681CA44F950022DC0C /* Entity */,
 				509828651CA44F2C0022DC0C /* Files */,
 				50835BCC1CA43CF5009285F8 /* AppDelegate.h */,
@@ -164,16 +163,6 @@
 			path = Helper;
 			sourceTree = "<group>";
 		};
-		50BE973F1CA45C17004870AB /* TableViewCell */ = {
-			isa = PBXGroup;
-			children = (
-				50BE97401CA45C4F004870AB /* AddressTableViewCell.h */,
-				50BE97411CA45C4F004870AB /* AddressTableViewCell.m */,
-				50BE97421CA45C4F004870AB /* AddressTableViewCell.xib */,
-			);
-			path = TableViewCell;
-			sourceTree = "<group>";
-		};
 		5C64DF02E2340C05775F5F1C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,10 +174,10 @@
 		EF6400961CA44D2E00824C04 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				50BE97451CA4672F004870AB /* call_white.png */,
 				EF6400971CA44D2E00824C04 /* add.png */,
 				EF6400981CA44D2E00824C04 /* back.png */,
 				EF6400991CA44D2E00824C04 /* call.png */,
+				EF64009A1CA44D2E00824C04 /* call_white.png */,
 				EF64009B1CA44D2E00824C04 /* email.png */,
 				EF64009C1CA44D2E00824C04 /* email_white.png */,
 				EF64009D1CA44D2E00824C04 /* favourite.png */,
@@ -261,7 +250,6 @@
 			files = (
 				50BE973C1CA453E9004870AB /* default.realm in Resources */,
 				50835BD91CA43CF5009285F8 /* LaunchScreen.storyboard in Resources */,
-				50BE97441CA45C4F004870AB /* AddressTableViewCell.xib in Resources */,
 				50835BD61CA43CF5009285F8 /* Assets.xcassets in Resources */,
 				EF6400A71CA44D2E00824C04 /* favourite.png in Resources */,
 				EF6400A31CA44D2E00824C04 /* call.png in Resources */,
@@ -270,9 +258,9 @@
 				50835BE11CA43DCF009285F8 /* Podfile in Resources */,
 				EF6400A51CA44D2E00824C04 /* email.png in Resources */,
 				EF6400A61CA44D2E00824C04 /* email_white.png in Resources */,
+				EF6400A41CA44D2E00824C04 /* call_white.png in Resources */,
 				EF6400A11CA44D2E00824C04 /* add.png in Resources */,
 				50835BD41CA43CF5009285F8 /* Main.storyboard in Resources */,
-				50BE97461CA4672F004870AB /* call_white.png in Resources */,
 				EF6400A81CA44D2E00824C04 /* message.png in Resources */,
 				EF6400A91CA44D2E00824C04 /* next.png in Resources */,
 			);
@@ -333,7 +321,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50BE97431CA45C4F004870AB /* AddressTableViewCell.m in Sources */,
 				50835BD11CA43CF5009285F8 /* ViewController.m in Sources */,
 				50835BCE1CA43CF5009285F8 /* AppDelegate.m in Sources */,
 				50BE973A1CA451A1004870AB /* UserEntity.m in Sources */,

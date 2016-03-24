@@ -172,7 +172,7 @@
                                 <rect key="frame" x="0.0" y="100" width="600" height="44"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Oc0-vm-d1V">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Oc0-vm-d1V">
                                 <rect key="frame" x="0.0" y="144" width="600" height="456"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </tableView>
@@ -197,6 +197,7 @@
                         <outlet property="lbUnderContacts" destination="fhc-JM-RhZ" id="pmM-4T-NeX"/>
                         <outlet property="lbUnderLineImpotant" destination="bWe-MM-zgn" id="Hc0-HA-8gc"/>
                         <outlet property="lbUnderLineWork" destination="hEE-5x-3sb" id="Slc-wA-yxN"/>
+                        <outlet property="tableViewAddress" destination="Oc0-vm-d1V" id="I0U-FO-oVy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
