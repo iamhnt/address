@@ -1,15 +1,15 @@
 PODS:
-  - FMDB (2.6.2):
-    - FMDB/standard (= 2.6.2)
-  - FMDB/standard (2.6.2)
   - MGSwipeTableCell (1.5.4)
+  - Realm (0.98.5):
+    - Realm/Headers (= 0.98.5)
+  - Realm/Headers (0.98.5)
 
 DEPENDENCIES:
-  - FMDB
   - MGSwipeTableCell
+  - Realm
 
 SPEC CHECKSUMS:
-  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
   MGSwipeTableCell: cffd3378af74eb991911f132c5f3911261fda860
+  Realm: db08379969e45cea2edd1c3c0a090fe9e22d2d2f
 
 COCOAPODS: 0.39.0

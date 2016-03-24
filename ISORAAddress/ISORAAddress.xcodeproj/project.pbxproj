@@ -25,9 +25,14 @@
 		EF6400A81CA44D2E00824C04 /* message.png in Resources */ = {isa = PBXBuildFile; fileRef = EF64009E1CA44D2E00824C04 /* message.png */; };
 		EF6400A91CA44D2E00824C04 /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = EF64009F1CA44D2E00824C04 /* next.png */; };
 		EF6400AA1CA44D2E00824C04 /* user_avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = EF6400A01CA44D2E00824C04 /* user_avatar.png */; };
+		5098286B1CA44FF70022DC0C /* DepartmentEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5098286A1CA44FF70022DC0C /* DepartmentEntity.m */; };
+		50BE973A1CA451A1004870AB /* UserEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BE97391CA451A1004870AB /* UserEntity.m */; };
+		50BE973C1CA453E9004870AB /* default.realm in Resources */ = {isa = PBXBuildFile; fileRef = 50BE973B1CA453E9004870AB /* default.realm */; };
+		F661B193F71EAB440973613A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30056643BFEC2A3D511ADE96 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30056643BFEC2A3D511ADE96 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3301F943071D27B3A81D4FB1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		50835BC61CA43CF5009285F8 /* ISORAAddress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ISORAAddress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50835BCA1CA43CF5009285F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -41,6 +46,11 @@
 		50835BDA1CA43CF5009285F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50835BE01CA43DCF009285F8 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6852E123626B3BDA4F8ED68F /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		509828691CA44FF70022DC0C /* DepartmentEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DepartmentEntity.h; sourceTree = "<group>"; };
+		5098286A1CA44FF70022DC0C /* DepartmentEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DepartmentEntity.m; sourceTree = "<group>"; };
+		50BE97381CA451A1004870AB /* UserEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserEntity.h; sourceTree = "<group>"; };
+		50BE97391CA451A1004870AB /* UserEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserEntity.m; sourceTree = "<group>"; };
+		50BE973B1CA453E9004870AB /* default.realm */ = {isa = PBXFileReference; lastKnownFileType = file; path = default.realm; sourceTree = "<group>"; };
 		8E0FC4E8197A1FF26775B143 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		EF6400971CA44D2E00824C04 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
 		EF6400981CA44D2E00824C04 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
@@ -59,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1FE413729A38B16EC5A3786 /* Pods.framework in Frameworks */,
+				F661B193F71EAB440973613A /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +108,8 @@
 			isa = PBXGroup;
 			children = (
 				EF6400961CA44D2E00824C04 /* Images */,
+				509828681CA44F950022DC0C /* Entity */,
+				509828651CA44F2C0022DC0C /* Files */,
 				50835BCC1CA43CF5009285F8 /* AppDelegate.h */,
 				50835BCD1CA43CF5009285F8 /* AppDelegate.m */,
 				50835BCF1CA43CF5009285F8 /* ViewController.h */,
@@ -119,10 +131,29 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		509828651CA44F2C0022DC0C /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				50BE973B1CA453E9004870AB /* default.realm */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		509828681CA44F950022DC0C /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				509828691CA44FF70022DC0C /* DepartmentEntity.h */,
+				5098286A1CA44FF70022DC0C /* DepartmentEntity.m */,
+				50BE97381CA451A1004870AB /* UserEntity.h */,
+				50BE97391CA451A1004870AB /* UserEntity.m */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
 		5C64DF02E2340C05775F5F1C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6852E123626B3BDA4F8ED68F /* Pods.framework */,
+				30056643BFEC2A3D511ADE96 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -204,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50BE973C1CA453E9004870AB /* default.realm in Resources */,
 				50835BD91CA43CF5009285F8 /* LaunchScreen.storyboard in Resources */,
 				50835BD61CA43CF5009285F8 /* Assets.xcassets in Resources */,
 				EF6400A71CA44D2E00824C04 /* favourite.png in Resources */,
@@ -278,6 +310,8 @@
 			files = (
 				50835BD11CA43CF5009285F8 /* ViewController.m in Sources */,
 				50835BCE1CA43CF5009285F8 /* AppDelegate.m in Sources */,
+				50BE973A1CA451A1004870AB /* UserEntity.m in Sources */,
+				5098286B1CA44FF70022DC0C /* DepartmentEntity.m in Sources */,
 				50835BCB1CA43CF5009285F8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

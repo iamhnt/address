@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <Realm/Realm.h>
 
 @interface AppDelegate ()
 
@@ -17,6 +18,20 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    //Copy database to document path
+    [self openRealmWithFileName:@"default"];
+    
+    // Check first time open app
+    
+    NSLog(@"%@", [[RLMRealmConfiguration defaultConfiguration] path]);
+    
+    RLMResults *departResult = [DepartmentEntity allObjects];
+    NSLog(@"Total department: %lu",(unsigned long)departResult.count);
+    
+    RLMResults *userResult = [UserEntity allObjects];
+    NSLog(@"Total users: %lu",(unsigned long)userResult.count);
+    
     return YES;
 }
 
@@ -42,4 +57,14 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+#pragma mark - copy realm file
+- (void)openRealmWithFileName:(NSString*) fileName {
+    NSString* documentsPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject];
+    NSString* realmPath = [documentsPath stringByAppendingPathComponent:[NSString stringWithFormat:@"%@.realm",fileName]];
+    
+    if(![[NSFileManager defaultManager] fileExistsAtPath:realmPath]) {
+        NSString *bundleRealmPath = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:[NSString stringWithFormat:@"%@.realm",fileName]];
+        [[NSFileManager defaultManager] copyItemAtPath:bundleRealmPath toPath:realmPath error:nil];
+    }
+}
 @end
