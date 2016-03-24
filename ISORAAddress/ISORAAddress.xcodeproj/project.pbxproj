@@ -19,10 +19,10 @@
 		50BE973C1CA453E9004870AB /* default.realm in Resources */ = {isa = PBXBuildFile; fileRef = 50BE973B1CA453E9004870AB /* default.realm */; };
 		50BE97431CA45C4F004870AB /* AddressTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BE97411CA45C4F004870AB /* AddressTableViewCell.m */; };
 		50BE97441CA45C4F004870AB /* AddressTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50BE97421CA45C4F004870AB /* AddressTableViewCell.xib */; };
+		50BE97461CA4672F004870AB /* call_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 50BE97451CA4672F004870AB /* call_white.png */; };
 		EF6400A11CA44D2E00824C04 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = EF6400971CA44D2E00824C04 /* add.png */; };
 		EF6400A21CA44D2E00824C04 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = EF6400981CA44D2E00824C04 /* back.png */; };
 		EF6400A31CA44D2E00824C04 /* call.png in Resources */ = {isa = PBXBuildFile; fileRef = EF6400991CA44D2E00824C04 /* call.png */; };
-		EF6400A41CA44D2E00824C04 /* call_white.png in Resources */ = {isa = PBXBuildFile; fileRef = EF64009A1CA44D2E00824C04 /* call_white.png */; };
 		EF6400A51CA44D2E00824C04 /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = EF64009B1CA44D2E00824C04 /* email.png */; };
 		EF6400A61CA44D2E00824C04 /* email_white.png in Resources */ = {isa = PBXBuildFile; fileRef = EF64009C1CA44D2E00824C04 /* email_white.png */; };
 		EF6400A71CA44D2E00824C04 /* favourite.png in Resources */ = {isa = PBXBuildFile; fileRef = EF64009D1CA44D2E00824C04 /* favourite.png */; };
@@ -55,11 +55,11 @@
 		50BE97401CA45C4F004870AB /* AddressTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressTableViewCell.h; sourceTree = "<group>"; };
 		50BE97411CA45C4F004870AB /* AddressTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressTableViewCell.m; sourceTree = "<group>"; };
 		50BE97421CA45C4F004870AB /* AddressTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddressTableViewCell.xib; sourceTree = "<group>"; };
+		50BE97451CA4672F004870AB /* call_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call_white.png; sourceTree = "<group>"; };
 		8E0FC4E8197A1FF26775B143 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		EF6400971CA44D2E00824C04 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
 		EF6400981CA44D2E00824C04 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 		EF6400991CA44D2E00824C04 /* call.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call.png; sourceTree = "<group>"; };
-		EF64009A1CA44D2E00824C04 /* call_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call_white.png; sourceTree = "<group>"; };
 		EF64009B1CA44D2E00824C04 /* email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email.png; sourceTree = "<group>"; };
 		EF64009C1CA44D2E00824C04 /* email_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email_white.png; sourceTree = "<group>"; };
 		EF64009D1CA44D2E00824C04 /* favourite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favourite.png; sourceTree = "<group>"; };
@@ -185,10 +185,10 @@
 		EF6400961CA44D2E00824C04 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				50BE97451CA4672F004870AB /* call_white.png */,
 				EF6400971CA44D2E00824C04 /* add.png */,
 				EF6400981CA44D2E00824C04 /* back.png */,
 				EF6400991CA44D2E00824C04 /* call.png */,
-				EF64009A1CA44D2E00824C04 /* call_white.png */,
 				EF64009B1CA44D2E00824C04 /* email.png */,
 				EF64009C1CA44D2E00824C04 /* email_white.png */,
 				EF64009D1CA44D2E00824C04 /* favourite.png */,
@@ -270,9 +270,9 @@
 				50835BE11CA43DCF009285F8 /* Podfile in Resources */,
 				EF6400A51CA44D2E00824C04 /* email.png in Resources */,
 				EF6400A61CA44D2E00824C04 /* email_white.png in Resources */,
-				EF6400A41CA44D2E00824C04 /* call_white.png in Resources */,
 				EF6400A11CA44D2E00824C04 /* add.png in Resources */,
 				50835BD41CA43CF5009285F8 /* Main.storyboard in Resources */,
+				50BE97461CA4672F004870AB /* call_white.png in Resources */,
 				EF6400A81CA44D2E00824C04 /* message.png in Resources */,
 				EF6400A91CA44D2E00824C04 /* next.png in Resources */,
 			);

@@ -7,6 +7,7 @@
 //
 
 #import "AddressTableViewCell.h"
+#import "Helper.h"
 
 @implementation AddressTableViewCell
 
@@ -23,6 +24,21 @@
     _lblName.text = user.name;
     _lblPosition.text = user.title;
     _lblEmail.text = user.email;
-    _lblPhoneNumber.text = user.phone;
+    
+    @try {
+        NSString *firstSectionOfNumber = [NSString stringWithFormat:@"0%@",[user.phone substringWithRange:NSMakeRange(0,3)]];
+        NSString *secondSectionOfNumber = [NSString stringWithFormat:@" %@",[user.phone substringWithRange:NSMakeRange(3,3)]];
+        NSString *thirdSectionOfNumber = [NSString stringWithFormat:@" %@",[user.phone substringWithRange:NSMakeRange(6,3)]];
+        _lblPhoneNumber.text = [NSString stringWithFormat:@"%@%@%@", firstSectionOfNumber, secondSectionOfNumber, thirdSectionOfNumber];
+    }
+    @catch (NSException *exception) {
+        _lblPhoneNumber.text = INVALIDPHONENUMBER;
+    }
+    @finally {
+        NSString *firstSectionOfNumber = [NSString stringWithFormat:@"0%@",[user.phone substringWithRange:NSMakeRange(0,3)]];
+        NSString *secondSectionOfNumber = [NSString stringWithFormat:@" %@",[user.phone substringWithRange:NSMakeRange(3,3)]];
+        NSString *thirdSectionOfNumber = [NSString stringWithFormat:@" %@",[user.phone substringWithRange:NSMakeRange(6,3)]];
+        _lblPhoneNumber.text = [NSString stringWithFormat:@"%@%@%@", firstSectionOfNumber, secondSectionOfNumber, thirdSectionOfNumber];
+    }
 }
 @end

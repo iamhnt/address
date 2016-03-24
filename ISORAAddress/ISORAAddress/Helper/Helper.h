@@ -10,5 +10,6 @@
 #define Helper_h
 
 #define NOTAVAILABLE @"This function is under construction. Which will be available shortly."
+#define INVALIDPHONENUMBER @"Invalid phone number"
 
 #endif /* Helper_h */
