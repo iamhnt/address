@@ -16,6 +16,7 @@
 		50835BE11CA43DCF009285F8 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 50835BE01CA43DCF009285F8 /* Podfile */; };
 		5098286B1CA44FF70022DC0C /* DepartmentEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5098286A1CA44FF70022DC0C /* DepartmentEntity.m */; };
 		50BE973A1CA451A1004870AB /* UserEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BE97391CA451A1004870AB /* UserEntity.m */; };
+		50BE973C1CA453E9004870AB /* default.realm in Resources */ = {isa = PBXBuildFile; fileRef = 50BE973B1CA453E9004870AB /* default.realm */; };
 		50BE97431CA45C4F004870AB /* AddressTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BE97411CA45C4F004870AB /* AddressTableViewCell.m */; };
 		50BE97441CA45C4F004870AB /* AddressTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50BE97421CA45C4F004870AB /* AddressTableViewCell.xib */; };
 		50BE97461CA4672F004870AB /* call_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 50BE97451CA4672F004870AB /* call_white.png */; };
@@ -25,10 +26,6 @@
 		50BE97521CA47501004870AB /* call_green.png in Resources */ = {isa = PBXBuildFile; fileRef = 50BE97511CA47501004870AB /* call_green.png */; };
 		50BE97551CA4774A004870AB /* AddressSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BE97541CA4774A004870AB /* AddressSearchViewController.m */; };
 		50BE97581CA477A5004870AB /* AddressSearchResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BE97571CA477A5004870AB /* AddressSearchResultViewController.m */; };
-		50BE975C1CA47DA1004870AB /* call_in_cell.png in Resources */ = {isa = PBXBuildFile; fileRef = 50BE97591CA47DA1004870AB /* call_in_cell.png */; };
-		50BE975D1CA47DA1004870AB /* email_in_cell.png in Resources */ = {isa = PBXBuildFile; fileRef = 50BE975A1CA47DA1004870AB /* email_in_cell.png */; };
-		50BE975E1CA47DA1004870AB /* message_in_cell.png in Resources */ = {isa = PBXBuildFile; fileRef = 50BE975B1CA47DA1004870AB /* message_in_cell.png */; };
-		50BE97601CA48168004870AB /* default.realm in Resources */ = {isa = PBXBuildFile; fileRef = 50BE975F1CA48168004870AB /* default.realm */; };
 		EF6400A11CA44D2E00824C04 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = EF6400971CA44D2E00824C04 /* add.png */; };
 		EF6400A21CA44D2E00824C04 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = EF6400981CA44D2E00824C04 /* back.png */; };
 		EF6400A31CA44D2E00824C04 /* call.png in Resources */ = {isa = PBXBuildFile; fileRef = EF6400991CA44D2E00824C04 /* call.png */; };
@@ -61,6 +58,7 @@
 		5098286A1CA44FF70022DC0C /* DepartmentEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DepartmentEntity.m; sourceTree = "<group>"; };
 		50BE97381CA451A1004870AB /* UserEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserEntity.h; sourceTree = "<group>"; };
 		50BE97391CA451A1004870AB /* UserEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserEntity.m; sourceTree = "<group>"; };
+		50BE973B1CA453E9004870AB /* default.realm */ = {isa = PBXFileReference; lastKnownFileType = file; path = default.realm; sourceTree = "<group>"; };
 		50BE973E1CA4572E004870AB /* Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
 		50BE97401CA45C4F004870AB /* AddressTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressTableViewCell.h; sourceTree = "<group>"; };
 		50BE97411CA45C4F004870AB /* AddressTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressTableViewCell.m; sourceTree = "<group>"; };
@@ -75,10 +73,6 @@
 		50BE97541CA4774A004870AB /* AddressSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressSearchViewController.m; sourceTree = "<group>"; };
 		50BE97561CA477A5004870AB /* AddressSearchResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressSearchResultViewController.h; sourceTree = "<group>"; };
 		50BE97571CA477A5004870AB /* AddressSearchResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressSearchResultViewController.m; sourceTree = "<group>"; };
-		50BE97591CA47DA1004870AB /* call_in_cell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call_in_cell.png; sourceTree = "<group>"; };
-		50BE975A1CA47DA1004870AB /* email_in_cell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email_in_cell.png; sourceTree = "<group>"; };
-		50BE975B1CA47DA1004870AB /* message_in_cell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = message_in_cell.png; sourceTree = "<group>"; };
-		50BE975F1CA48168004870AB /* default.realm */ = {isa = PBXFileReference; lastKnownFileType = file; path = default.realm; sourceTree = "<group>"; };
 		8E0FC4E8197A1FF26775B143 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		EF6400971CA44D2E00824C04 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
 		EF6400981CA44D2E00824C04 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
@@ -167,7 +161,7 @@
 		509828651CA44F2C0022DC0C /* Files */ = {
 			isa = PBXGroup;
 			children = (
-				50BE975F1CA48168004870AB /* default.realm */,
+				50BE973B1CA453E9004870AB /* default.realm */,
 			);
 			path = Files;
 			sourceTree = "<group>";
@@ -228,9 +222,6 @@
 		EF6400961CA44D2E00824C04 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				50BE97591CA47DA1004870AB /* call_in_cell.png */,
-				50BE975A1CA47DA1004870AB /* email_in_cell.png */,
-				50BE975B1CA47DA1004870AB /* message_in_cell.png */,
 				50BE97511CA47501004870AB /* call_green.png */,
 				50BE974E1CA47498004870AB /* email_green.png */,
 				50BE974B1CA47405004870AB /* message_white.png */,
@@ -308,10 +299,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50BE975D1CA47DA1004870AB /* email_in_cell.png in Resources */,
+				50BE973C1CA453E9004870AB /* default.realm in Resources */,
 				50835BD91CA43CF5009285F8 /* LaunchScreen.storyboard in Resources */,
 				50BE97441CA45C4F004870AB /* AddressTableViewCell.xib in Resources */,
-				50BE975E1CA47DA1004870AB /* message_in_cell.png in Resources */,
 				EF6400AF1CA4717F00824C04 /* HeaderTableViewCell.xib in Resources */,
 				50835BD61CA43CF5009285F8 /* Assets.xcassets in Resources */,
 				EF6400A71CA44D2E00824C04 /* favourite.png in Resources */,
@@ -325,9 +315,7 @@
 				EF6400A61CA44D2E00824C04 /* email_white.png in Resources */,
 				EF6400A11CA44D2E00824C04 /* add.png in Resources */,
 				50835BD41CA43CF5009285F8 /* Main.storyboard in Resources */,
-				50BE97601CA48168004870AB /* default.realm in Resources */,
 				50BE97461CA4672F004870AB /* call_white.png in Resources */,
-				50BE975C1CA47DA1004870AB /* call_in_cell.png in Resources */,
 				EF6400A81CA44D2E00824C04 /* message.png in Resources */,
 				50BE97501CA47498004870AB /* email_green.png in Resources */,
 				EF6400A91CA44D2E00824C04 /* next.png in Resources */,
@@ -390,8 +378,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				50BE97431CA45C4F004870AB /* AddressTableViewCell.m in Sources */,
+<<<<<<< HEAD
 				50BE97581CA477A5004870AB /* AddressSearchResultViewController.m in Sources */,
+=======
 				EF6400AE1CA4717F00824C04 /* HeaderTableViewCell.m in Sources */,
+>>>>>>> 4effe6a153a0f6f776296c8d101cfc263757703c
 				50835BD11CA43CF5009285F8 /* ViewController.m in Sources */,
 				50BE974A1CA46AF9004870AB /* AddressDetailViewController.m in Sources */,
 				50BE97551CA4774A004870AB /* AddressSearchViewController.m in Sources */,

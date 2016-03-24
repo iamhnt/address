@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "UserEntity.h"
+#import "MGSwipeTableCell.h"
 
-@interface AddressTableViewCell : UITableViewCell
+@interface AddressTableViewCell : MGSwipeTableCell
 @property (weak, nonatomic) IBOutlet UILabel *lblName;
 @property (weak, nonatomic) IBOutlet UILabel *lblPosition;
 @property (weak, nonatomic) IBOutlet UILabel *lblEmail;
