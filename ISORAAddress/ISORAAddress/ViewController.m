@@ -14,6 +14,7 @@
   RLMResults* userResult;
   NSMutableArray *arrayHeaderWorks;
   NSMutableArray *arrayData;
+  NSString *query;
 }
 @end
 
@@ -24,6 +25,7 @@
   isWork = YES;
   isContacts = NO;
   isImpotant = NO;
+  _searchBar.delegate = self;
   arrayData = [[NSMutableArray alloc]init];
   arrayHeaderWorks = [[NSMutableArray alloc]init];
   userResult = [[UserEntity allObjects] sortedResultsUsingProperty:@"groupName" ascending:YES];
@@ -63,9 +65,16 @@
       }
     }
   }
-  NSLog(@"%d",arrayHeaderWorks.count);
+  NSLog(@"%lu",(unsigned long)arrayHeaderWorks.count);
   for (NSString *groupName in arrayHeaderWorks) {
-    RLMResults *result = [UserEntity objectsWhere:[NSString stringWithFormat:@"groupName = '%@'",groupName]];
+    RLMResults *result;
+    if ([query isEqualToString:@""] || query == nil) {
+      result = [UserEntity objectsWhere:[NSString stringWithFormat:@"groupName = '%@'",groupName]];
+    }else{
+      NSString *querry = [NSString stringWithFormat:@"(%@) AND groupName = '%@'",query,groupName];
+      NSPredicate *pred = [NSPredicate predicateWithFormat:querry];
+      result = [UserEntity objectsWithPredicate:pred];
+    }
     [arrayData addObject:result];
   }
   [_tableViewAddress reloadData];
@@ -139,32 +148,17 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     AddressDetailViewController* controller = [storyboard instantiateViewControllerWithIdentifier:@"addressDetailViewController"];
-    UserEntity* userEntity = [userResult objectAtIndex:indexPath.row];
+    UserEntity* userEntity = arrayData[indexPath.section][indexPath.row];
     
     controller.user = userEntity;
     NSLog(@"user selected!");
     [self.navigationController pushViewController:controller animated:YES];
 }
 -(void)callInCellClicked:(NSIndexPath*) indexPath{
-//    UserEntity* _userData = [userResult objectAtIndex:indexPath.row];
-//    
-//    RoadViewController *viewController = (RoadViewController *)[self.storyboard instantiateViewControllerWithIdentifier:@"RoadViewController"];
-//    viewController.storeEntity = _storeDetailData;
-//    [self.navigationController pushViewController:viewController animated:YES];
 }
 -(void)emailInCellClicked:(NSIndexPath*) indexPath{
-    //    UserEntity* _userData = [userResult objectAtIndex:indexPath.row];
-    //
-    //    RoadViewController *viewController = (RoadViewController *)[self.storyboard instantiateViewControllerWithIdentifier:@"RoadViewController"];
-    //    viewController.storeEntity = _storeDetailData;
-    //    [self.navigationController pushViewController:viewController animated:YES];
 }
 -(void)messageInCellClicked:(NSIndexPath*) indexPath{
-    //    UserEntity* _userData = [userResult objectAtIndex:indexPath.row];
-    //
-    //    RoadViewController *viewController = (RoadViewController *)[self.storyboard instantiateViewControllerWithIdentifier:@"RoadViewController"];
-    //    viewController.storeEntity = _storeDetailData;
-    //    [self.navigationController pushViewController:viewController animated:YES];
 }
 #pragma mark - convert image to size
 -(UIImage *)convertImageWithImage:(UIImage *)image scaledToSize:(CGSize)newSize {
@@ -178,4 +172,19 @@
     return newImage;
 }
 
+#pragma mark: - search bar delegate
+-(void)searchBarSearchButtonClicked:(UISearchBar *)searchBar{
+  NSCharacterSet *whitespace = [NSCharacterSet whitespaceAndNewlineCharacterSet];
+  NSString *searchText = [searchBar.text stringByTrimmingCharactersInSet:whitespace];
+  if (searchText.length == 0) {
+    searchBar.text = @"";
+    return;
+  }
+  [arrayHeaderWorks removeAllObjects];
+  [arrayData removeAllObjects];
+  query = [NSString stringWithFormat:@"name CONTAINS[c] '%@' OR email CONTAINS[c] '%@' OR phone CONTAINS[c] '%@'",searchBar.text,searchBar.text,searchBar.text];
+  NSPredicate *pred = [NSPredicate predicateWithFormat:query];
+  userResult = [[UserEntity objectsWithPredicate:pred] sortedResultsUsingProperty:@"groupName" ascending:YES];
+  [self setUpDataForTable];
+}
 @end

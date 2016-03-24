@@ -197,6 +197,7 @@
                         <outlet property="lbUnderContacts" destination="fhc-JM-RhZ" id="pmM-4T-NeX"/>
                         <outlet property="lbUnderLineImpotant" destination="bWe-MM-zgn" id="Hc0-HA-8gc"/>
                         <outlet property="lbUnderLineWork" destination="hEE-5x-3sb" id="Slc-wA-yxN"/>
+                        <outlet property="searchBar" destination="Iym-35-6jF" id="UhE-gk-shK"/>
                         <outlet property="tableViewAddress" destination="Oc0-vm-d1V" id="I0U-FO-oVy"/>
                     </connections>
                 </viewController>
