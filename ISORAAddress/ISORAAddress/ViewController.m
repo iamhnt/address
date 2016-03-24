@@ -113,16 +113,13 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-  //    UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-  //    CardsetDetailViewController* controller = [storyboard instantiateViewControllerWithIdentifier:@"CardsetDetailViewController"];
-  //    Cardset* cardsetEntity = [cardsetList objectAtIndex:indexPath.row];
-  //    RLMResults<Card*>* cardsList = [Card objectsInRealm:realm where:@"cardset_id = %d",cardsetEntity.cardset_id];
-  //    controller.cardsetData = cardsetEntity;
-  //    controller.cardsData = cardsList;
-  //
-  //    [self.navigationController pushViewController:controller animated:YES];
-  
-  NSLog(@"user selected!");
+    UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    AddressDetailViewController* controller = [storyboard instantiateViewControllerWithIdentifier:@"addressDetailViewController"];
+    UserEntity* userEntity = [userResult objectAtIndex:indexPath.row];
+    
+    controller.user = userEntity;
+    NSLog(@"user selected!");
+    [self.navigationController pushViewController:controller animated:YES];
 }
 
 @end
