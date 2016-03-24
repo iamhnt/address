@@ -11,6 +11,7 @@
 #import "UserEntity.h"
 #import "DepartmentEntity.h"
 #import "AddressTableViewCell.h"
+#import "AddressDetailViewController.h"
 
 @interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UILabel *lbUnderLineWork;
