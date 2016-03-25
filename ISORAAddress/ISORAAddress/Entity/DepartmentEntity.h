@@ -11,7 +11,7 @@
 
 @interface DepartmentEntity : RLMObject
 
-@property NSInteger id;
+@property NSInteger idField;
 @property NSString *name;
 @property NSString *parent;
 

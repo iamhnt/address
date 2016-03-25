@@ -170,7 +170,7 @@
                                     </mask>
                                 </variation>
                             </view>
-                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="Iym-35-6jF">
+                            <searchBar contentMode="redraw" showsCancelButton="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Iym-35-6jF">
                                 <rect key="frame" x="0.0" y="100" width="600" height="44"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
@@ -263,6 +263,9 @@
                                         </constraints>
                                         <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
                                         <state key="normal" image="favourite.png"/>
+                                        <connections>
+                                            <action selector="favoriteButtonAction:" destination="mz0-6E-hgb" eventType="touchUpInside" id="yjn-jZ-Gr9"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.01176470588" green="0.62352941179999999" blue="0.47843137250000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -485,6 +488,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="btnFavorite" destination="hLd-0y-1yb" id="TjD-vr-kGb"/>
                         <outlet property="lblEmail" destination="n9T-Ps-YJT" id="QP5-cl-Nsv"/>
                         <outlet property="lblName" destination="mb5-wx-cD8" id="yeI-qB-CT1"/>
                         <outlet property="lblPhoneNumber" destination="6rP-TA-hHw" id="A2f-BG-36j"/>

@@ -16,5 +16,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *lblYearOfBirth;
 @property (weak, nonatomic) IBOutlet UILabel *lblPhoneNumber;
 @property (weak, nonatomic) IBOutlet UILabel *lblEmail;
+@property (weak, nonatomic) IBOutlet UIButton *btnFavorite;
 @property(strong, nonatomic) UserEntity* user;
 @end

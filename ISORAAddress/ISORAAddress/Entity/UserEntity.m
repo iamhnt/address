@@ -9,5 +9,7 @@
 #import "UserEntity.h"
 
 @implementation UserEntity
-
++ (NSString *)primaryKey {
+    return @"idField";
+}
 @end

@@ -10,8 +10,12 @@
 #import <Realm/Realm.h>
 
 @interface UserEntity : RLMObject
-@property NSInteger id;
+@property NSInteger idField;
 @property NSString *name;
+@property NSString *first_name;
+@property NSString *middle_name;
+@property NSString *last_name;
+@property BOOL isFavorite;
 @property NSString *icon;
 @property NSString *title;
 @property NSString *groupName;

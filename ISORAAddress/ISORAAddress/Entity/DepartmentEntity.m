@@ -9,5 +9,7 @@
 #import "DepartmentEntity.h"
 
 @implementation DepartmentEntity
-
++ (NSString *)primaryKey {
+    return @"idField";
+}
 @end
